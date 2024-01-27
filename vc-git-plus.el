@@ -95,9 +95,9 @@ Optional keywords:
          (message "Remote repository cloned successfully.")))))
 
 
-;; (vc-git-clone :url "https://github.com/lesliesrussell/Sanemacs/")
-;; (vc-git-clone :url "~/.sandbox/testing/Sanemacs"
-;; 	      :directory "~/.sandbox/testing/my-sanemacs/"
+;; (vc-git-clone :url "https://github.com/user/package/")
+;; (vc-git-clone :url "~/.sandbox/testing/package"
+;; 	      :directory "~/.sandbox/testing/my-package/"
 ;; 	      :local t)
 
 (provide 'vc-git-plus)
